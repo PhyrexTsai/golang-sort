@@ -12,23 +12,25 @@
 ### How to build package
 
 ```
-cd $GOPATH/src/
-go install github.com/PhyrexTsai/sort
+go install golang-sort
 ```
-
-Will generate `sort.a` under `$GOPATH/pkg/darwin_amd64/PhyrexTsai/sort`
 
 ### How to run test
 
 ```
-cd $GOPATH/src/github.com/PhyrexTsai/sort
 go test -v
+```
+
+### Get library
+
+```
+go get github.com/PhyrexTsai/golang-sort
 ```
 
 ### How to import
 
 ```
 import (
-	"github.com/PhyrexTsai/sort"
+	"github.com/PhyrexTsai/golang-sort"
 )
 ```
