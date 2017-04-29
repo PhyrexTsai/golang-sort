@@ -12,7 +12,9 @@
 ### How to build package
 
 ```
-go install golang-sort
+cd $GOPATH/src
+mkdir $PACKAGE_NAME
+go install $PACKAGE_NAME
 ```
 
 ### How to run test
